@@ -12,6 +12,7 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  background-color: #f3f4f6;
 }
 
 a {
@@ -36,8 +37,9 @@ h2 {
 
 .input-label {
   display: block;
-  font-size: large;
+  font-size: xx-large;
   font-weight: 600;
+  color: #1646ff;
 }
 
 .input {
@@ -45,23 +47,24 @@ h2 {
   outline: #fff;
   padding: 0.6rem 1rem;
   margin: 1rem;
-  border: 2px solid var(--primary-color);
+  border: 3px solid #1646ff;
   border-radius: 0.5rem;
   width: 100%;
-  max-width: 258px;
+  max-width: 380px;
 }
 
 #show-btn {
-  background: var(--primary-color);
-  border: none;
-  color: #fff;
-  padding: 0.7rem 1rem;
-  border-radius: 0.5rem;
-  font-size: large;
-  cursor: pointer;
-  outline: #fff;
-  margin: auto;
-  display: block;
+  background: #1646ff;
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    width: 30%;
 }
 
 #result {
@@ -97,4 +100,12 @@ li {
 img {
   width: 40px;
   padding: 0.2rem;
+}
+
+.form_container{
+  border: 17px solid #3ac9ed;
+    max-width: 700px;
+    height: 267px;
+    padding: 32px;
+    margin: auto;
 }
